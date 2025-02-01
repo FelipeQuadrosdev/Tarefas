@@ -10,7 +10,7 @@ export const authOptions = {
     }),
   
   ],
-  secret: `${process.env.NEXTAUTH_SECRET}`as string,
+  secret: `${process.env.NEXTAUTH_SECRE}`as string,
 }
 
 export default NextAuth(authOptions)
