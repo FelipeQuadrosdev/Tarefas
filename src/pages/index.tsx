@@ -17,7 +17,6 @@ interface HomeProps{
 
 export default function Home({comments,posts}:HomeProps) {
 
-
   return (
     <div className={styles.container}>
       <Head>
