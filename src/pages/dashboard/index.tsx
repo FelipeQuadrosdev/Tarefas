@@ -15,7 +15,7 @@ import {
 } from "firebase/firestore"
 
 import { getSession } from "next-auth/react"
-import { TextArea } from "../../components/textarea"
+import { Textarea } from "@/components/textarea"
 import { FiShare2 } from "react-icons/fi"
 import { FaTrash } from "react-icons/fa"
 import Link from "next/link"
@@ -115,7 +115,7 @@ export default function Dashboard({ user }: HomeProps) {
                         <h1 className={styles.title}>Qual sua tarefa?</h1>
 
                         <form onSubmit={handleRegisterTask}>
-                            <TextArea
+                            <Textarea
                                 placeholder="Digite qual a sua tarefa..."
                                 value={input}
                                 onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>

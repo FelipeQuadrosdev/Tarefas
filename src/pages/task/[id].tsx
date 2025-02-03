@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FormEvent } from "react";
 import { useSession } from "next-auth/react";
 import Head from "next/head";
 import style from "./styles.module.css"
-import { TextArea } from "../../components/textarea"
+import { Textarea } from "@/components/textarea";
 import { GetServerSideProps } from "next";
 
 import { db } from "../../services/firebaseConnection";
@@ -79,9 +79,9 @@ export default function Task({ item, allComments }: TaskProps) {
         try {
             const deleteRef = doc(db, "comments", id)
             await deleteDoc(deleteRef)
-            const deleteComment = comments.filter((item)=> item.id!==id )
+            const deleteComment = comments.filter((item) => item.id !== id)
             setComments(deleteComment)
-            
+
         } catch (error) {
             console.log(error);
         }
@@ -103,7 +103,7 @@ export default function Task({ item, allComments }: TaskProps) {
             <section className={style.commentsContainer}>
                 <h2>Deixar comentário</h2>
                 <form onSubmit={handleComment}>
-                    <TextArea
+                    <Textarea
                         value={input}
                         onChange={(event: ChangeEvent<HTMLTextAreaElement>) =>
                             setInput(event.target.value)}
