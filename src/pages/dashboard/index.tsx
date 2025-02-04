@@ -11,7 +11,7 @@ import {
     orderBy,
     where,
     deleteDoc,
-    doc
+    doc,
 } from "firebase/firestore"
 
 import { getSession } from "next-auth/react"
