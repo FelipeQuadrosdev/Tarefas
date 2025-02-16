@@ -19,9 +19,9 @@ Este é um projeto de gerenciamento de tarefas que utiliza NextAuth.jspara auten
 
 -**Firestore**: Banco de dados NoSQL para armazenamento das tarefas.
 
--**SSG**: Geração de páginas no momento do build, recarregando a cada 60 segundos para trazer novos dados.
+-**SSG**: Geração de páginas estáticas durante o build. A revalidação incremental, permite que essas páginas sejam atualizadas intervalos regulares a cada 60 segundos.
 
--**SSR** (Server-Side Rendering): Renderização de páginas HTML no lado do servidor para melhorar a performance.
+-**SSR** (Server-Side Rendering): Renderização das páginas no servidor em tempo real, a cada solicitação, para garantir dados atualizados.
 
 ## Funcionalidades
 -Cadastro, edição e exclusão de tarefas.
