@@ -37,6 +37,6 @@ Este é um projeto de gerenciamento de tarefas que utiliza NextAuth.jspara auten
 ## Contato
 Email: felipedequadrosgomes@gmail.com
 
-LinkedIn: Felipe de Quadros Gomes
+LinkedIn: https://www.linkedin.com/in/felipe-de-quadros-gomes-b990012aa/
 
-Portfólio: portifolio-quadros.vercel.app
+Portfólio:https://portifolio-quadros.vercel.app/
