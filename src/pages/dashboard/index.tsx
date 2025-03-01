@@ -158,7 +158,6 @@ export default function Dashboard({ user }: HomeProps) {
                             ) : (
                                 <p>{task.tarefa}</p>
                             )}
-
                             <div className={styles.taskcontent}>
                                 <button className={styles.trashButton} onClick={() => handleDelete(task.id)}>
                                     <FaTrash size={24} color="#ea3140" />

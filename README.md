@@ -39,4 +39,8 @@ Email: felipedequadrosgomes@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/felipe-de-quadros-gomes-b990012aa/
 
+<<<<<<< HEAD
 Portfólio:https://portifolio-quadros.vercel.app/
+=======
+Portfólio: https://portifolio-quadros.vercel.app/
+>>>>>>> f46330886d01228005e7829ecbeb2e444fe84be3
