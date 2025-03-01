@@ -30,7 +30,7 @@ export function Header() {
         ) : (
           <button
             className={styles.loginButton}
-            onClick={() => signIn("google")}
+            onClick={() => signIn("Google")}
           >
             Acessar
           </button>
